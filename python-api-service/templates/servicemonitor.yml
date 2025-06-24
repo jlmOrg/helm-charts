@@ -1,13 +1,13 @@
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
-  name: {{ include "python-service.fullname" . }}-servicemonitor
+  name: {{ include "python-api-service.fullname" . }}-servicemonitor
   labels:
     release: prometheus
 spec:
   selector:
     matchLabels:
-      {{ include "python-service.labels" . | nindent 6 }}
+      {{ include "python-api-service.labels" . | nindent 6 }}
   namespaceSelector:
     matchNames:
       - {{ .Values.namespace }}
