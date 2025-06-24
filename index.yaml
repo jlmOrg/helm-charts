@@ -9,6 +9,6 @@ entries:
     name: python-api-service
     type: application
     urls:
-    - https:jlmOrg.github.io/helm-charts
+    - https://jlmOrg.github.io/helm-charts
     version: 0.1.0
 generated: "2025-06-23T23:31:41.3689792-04:00"
