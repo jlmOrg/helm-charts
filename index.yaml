@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  python-api-service:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2025-06-23T23:31:41.3695009-04:00"
+    description: Generic Helm chart for Python microservices
+    digest: e2a090f80d9490d829ef8258a6517f6e694adb0ef32251b369d4966a3e6c71b1
+    name: python-api-service
+    type: application
+    urls:
+    - https:jlmOrg.github.io/helm-charts
+    version: 0.1.0
+generated: "2025-06-23T23:31:41.3689792-04:00"
